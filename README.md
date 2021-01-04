@@ -7,8 +7,9 @@ To run any of the programs, create a main.cpp file, include "program.h" and writ
 
 example for Visual Studio 2017 to run LorenzAttractor:
 
-main.cpp
 
+```cpp
+// main.cpp
 #include "stdafx.h"
 #include "LorenzAttractor.h"
 #include <SFML/Graphics.hpp>
@@ -16,7 +17,6 @@ main.cpp
 int main()
 {
   /// Create a window
-  
   bool isFullscreen = true;
   sf::RenderWindow window;
 	window.create(sf::VideoMode(1980, 1080), "Coding Projects", (isFullscreen ? sf::Style::Fullscreen : sf::Style::Default), sf::ContextSettings());
@@ -26,6 +26,6 @@ int main()
   
   
   /// Important part is here
-  
   LorenzAttractor.run(window);
 }
+```
