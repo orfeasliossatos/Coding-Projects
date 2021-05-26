@@ -8,7 +8,7 @@ To run any of the programs, create a main.cpp file, include "program.h" and writ
 example for Visual Studio 2017 to run LorenzAttractor:
 
 main.cpp
-
+```cpp
 #include "stdafx.h"
 #include "LorenzAttractor.h"
 #include <SFML/Graphics.hpp>
@@ -29,3 +29,4 @@ int main()
   
   LorenzAttractor.run(window);
 }
+´´´cpp
