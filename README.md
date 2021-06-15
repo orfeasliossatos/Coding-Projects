@@ -30,3 +30,9 @@ int main()
   LorenzAttractor.run(window);
 }
 ```
+Controls : 
+H to switch to the next attractor
+W/A/S/D for moving in the plane 
+Space/Shift to move up and down
+Up/Down/Left/Right to turn the camera
+These will feel familiar to Minecraft players ;)
